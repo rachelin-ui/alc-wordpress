@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "name": "Bleu ALC",
+          "slug": "alc-blue",
+          "color": "#003366"
+        }
+      ]
+    },
+    "typography": {
+      "fontSizes": [
+        {
+          "name": "Grand titre",
+          "slug": "grand-titre",
+          "size": "36px"
+        }
+      ]
+    }
+  }
+}

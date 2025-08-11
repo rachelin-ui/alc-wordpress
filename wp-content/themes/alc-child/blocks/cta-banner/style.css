@@ -1,0 +1,47 @@
+.cta-banner {
+  padding: 2rem;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.cta-banner h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.cta-banner p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #0073aa;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.cta-button:focus,
+.cta-button:hover {
+  background-color: #005177;
+  outline: 2px solid #005177;
+  outline-offset: 2px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .cta-banner h2 {
+    font-size: 1.4rem;
+  }
+
+  .cta-banner p {
+    font-size: 0.9rem;
+  }
+
+  .cta-button {
+    width: 100%;
+    padding: 1rem;
+  }
+}

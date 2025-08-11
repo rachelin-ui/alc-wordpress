@@ -1,0 +1,15 @@
+{
+  "apiVersion": 2,
+  "name": "alc/cta-banner",
+  "title": "Bannière CTA",
+  "category": "widgets",
+  "icon": "megaphone",
+  "description": "Un bloc avec titre, texte, URL et couleur de fond",
+  "attributes": {
+    "title": { "type": "string", "default": "Titre ALC" },
+    "text": { "type": "string", "default": "Texte de la bannière" },
+    "url": { "type": "string", "default": "#" },
+    "backgroundColor": { "type": "string", "default": "#003366" }
+  },
+  "editorScript": "file:./index.js"
+}
